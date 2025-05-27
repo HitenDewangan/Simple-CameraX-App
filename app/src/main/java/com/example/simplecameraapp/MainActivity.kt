@@ -268,3 +268,5 @@ class MainActivity : AppCompatActivity() {
         cameraExecutor.shutdown()
     }
 }
+
+// complete
