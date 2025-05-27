@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SimpleCameraApp</string>
+    <string name="captured_photo_description">Captured photo</string>
+</resources>
