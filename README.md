@@ -84,8 +84,7 @@ Also, request runtime permissions on Android 6.0+ (API 23+).
 ---
 
 ## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
+This project is open source and available under the [MIT License](https://opensource.org/license/MIT). Feel free to use and modify it according to the terms of the license.
 
 ---
 
