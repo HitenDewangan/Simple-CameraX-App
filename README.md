@@ -1,110 +1,104 @@
 
 # 📸 Simple CameraX App
 
-A minimal Android application demonstrating the use of **CameraX API** to capture and save images using the device’s camera. Built using Kotlin and Jetpack components.
+A minimal Android app demonstrating how to use **CameraX API** to capture and save images. Built with Kotlin and Jetpack components.
 
 ---
 
 ## 🚀 Features
 
-- 📷 Capture images using device camera  
-- 💾 Save captured photos to external storage  
-- 🔄 CameraX lifecycle-aware integration  
-- 🧪 Built with clean and modular code
+- 📷 Capture images using the device camera  
+- 💾 Save captured images to external storage  
+- 🔄 Lifecycle-aware CameraX integration  
+- 🧼 Clean and modular Kotlin codebase
 
 ---
 
-## 📱 Screenshots
+## 🖼️ Screenshots
 
-> *(Add screenshots here if available, using Markdown syntax like below)*  
-> `![Screenshot](path/to/screenshot.png)`
-
----
-
-## 🛠️ Built With
-
-- [CameraX](https://developer.android.com/training/camerax) – Jetpack library for camera functionality  
-- [Kotlin](https://kotlinlang.org/) – Programming language  
-- [AndroidX](https://developer.android.com/jetpack/androidx) – Jetpack components  
-- [ViewBinding](https://developer.android.com/topic/libraries/view-binding) – Easy and type-safe UI access
+<!-- Add screenshots here -->
+<!-- Example: ![Screenshot1](screenshots/screen1.png) -->
 
 ---
 
 ## 📂 Project Structure
 
-
 Simple-CameraX-App/
-│
 ├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/example/simplecameraxapp/
-│   │   │   │   ├── MainActivity.kt
-│   │   │   ├── res/
-│   │   │   │   ├── layout/
-│   │   │   │   ├── drawable/
-│   │   │   │   ├── values/
-│   │   │   ├── AndroidManifest.xml
-│   ├── build.gradle
+│   └── src/
+│       └── main/
+│           ├── java/com/example/simplecameraxapp/
+│           │   └── MainActivity.kt
+│           └── res/
+│               ├── layout/
+│               ├── drawable/
+│               └── values/
+│           └── AndroidManifest.xml
 ├── build.gradle
-├── settings.gradle
-
+└── settings.gradle
 
 ---
 
 ## 🧑‍💻 Getting Started
 
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/HitenDewangan/Simple-CameraX-App.git
-   cd Simple-CameraX-App
-````
+### 1. Clone the Repository
 
-2. **Open in Android Studio**
-
-   * File → Open → Select the project folder
-
-3. **Build and Run**
-
-   * Make sure a physical device or emulator with a camera is connected
-   * Run the app using the Play ▶️ button
-
----
-
-## 🔐 Permissions
-
-The app requires the following permissions:
-
-```xml
-<uses-permission android:name="android.permission.CAMERA"/>
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+```bash
+git clone https://github.com/HitenDewangan/Simple-CameraX-App.git
+cd Simple-CameraX-App
 ```
 
-Ensure runtime permissions are also handled on devices running Android 6.0 (API 23) or higher.
+### 2. Open in Android Studio
+
+* Open Android Studio
+* Select `File → Open` and choose this project folder
+
+### 3. Build and Run
+
+* Make sure a camera-enabled device or emulator is connected
+* Hit ▶️ **Run** from Android Studio
 
 ---
 
-## 🧾 License
+## 🔐 Required Permissions
+
+Add the following permissions to your `AndroidManifest.xml`:
+
+```xml
+<uses-permission android:name="android.permission.CAMERA" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+```
+
+Also, request runtime permissions on Android 6.0+ (API 23+).
+
+---
+
+## 🛠️ Tech Stack
+
+* [CameraX](https://developer.android.com/training/camerax)
+* [Kotlin](https://kotlinlang.org/)
+* [ViewBinding](https://developer.android.com/topic/libraries/view-binding)
+* [AndroidX](https://developer.android.com/jetpack/androidx)
+
+---
+
+## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-Feel free to check [issues](https://github.com/HitenDewangan/Simple-CameraX-App/issues) page if you'd like to collaborate.
-
----
-
-## 🙋‍♂️ Author
+## 👤 Author
 
 **Hiten Dewangan**
 🔗 [GitHub](https://github.com/HitenDewangan)
 
 ---
 
-```
+## 🤝 Contributing
 
-Would you like me to include shields.io badges (build status, license, etc.) or auto-generate demo screenshots using placeholders?
+Pull requests, issues, and stars ⭐ are welcome!
+Feel free to open an [issue](https://github.com/HitenDewangan/Simple-CameraX-App/issues) or start a discussion.
+
+```d)
 ```
