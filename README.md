@@ -1,8 +1,4 @@
-Here's a fully formatted `README.md` for your [Simple-CameraX-App](https://github.com/HitenDewangan/Simple-CameraX-App), optimized for GitHub rendering:
 
----
-
-```markdown
 # 📸 Simple CameraX App
 
 A minimal Android application demonstrating the use of **CameraX API** to capture and save images using the device’s camera. Built using Kotlin and Jetpack components.
@@ -36,7 +32,6 @@ A minimal Android application demonstrating the use of **CameraX API** to captur
 
 ## 📂 Project Structure
 
-```
 
 Simple-CameraX-App/
 │
@@ -54,7 +49,6 @@ Simple-CameraX-App/
 ├── build.gradle
 ├── settings.gradle
 
-````
 
 ---
 
