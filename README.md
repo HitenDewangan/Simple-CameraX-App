@@ -23,6 +23,7 @@ A minimal Android app demonstrating how to use **CameraX API** to capture and sa
 
 ## 📂 Project Structure
 
+```plaintext
 Simple-CameraX-App/
 ├── app/
 │   └── src/
@@ -36,7 +37,7 @@ Simple-CameraX-App/
 │           └── AndroidManifest.xml
 ├── build.gradle
 └── settings.gradle
-
+```
 ---
 
 ## 🧑‍💻 Getting Started
